@@ -1,5 +1,6 @@
 # Ignorowanie folderu z zależnościami
 node_modules/
+__pycache__
 
 # Ignorowanie plików środowiskowych
 .env
@@ -15,6 +16,7 @@ node_modules/
 # Ignorowanie plików konfiguracyjnych IDE
 .vscode/
 .idea/
+.pytest_cache
 
 # Wykluczanie określonych plików z ignorowania
 !.gitignore
