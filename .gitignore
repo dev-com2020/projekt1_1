@@ -1,0 +1,20 @@
+# Ignorowanie folderu z zależnościami
+node_modules/
+
+# Ignorowanie plików środowiskowych
+.env
+
+# Ignorowanie plików tymczasowych i logów
+*.log
+*.tmp
+*.conf
+
+# Ignorowanie katalogu buildów
+/dist
+
+# Ignorowanie plików konfiguracyjnych IDE
+.vscode/
+.idea/
+
+# Wykluczanie określonych plików z ignorowania
+!.gitignore
