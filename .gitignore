@@ -1,0 +1,22 @@
+# Ignorowanie folderu z zależnościami
+node_modules/
+__pycache__
+
+# Ignorowanie plików środowiskowych
+.env
+
+# Ignorowanie plików tymczasowych i logów
+*.log
+*.tmp
+*.conf
+
+# Ignorowanie katalogu buildów
+/dist
+
+# Ignorowanie plików konfiguracyjnych IDE
+.vscode/
+.idea/
+.pytest_cache
+
+# Wykluczanie określonych plików z ignorowania
+!.gitignore
